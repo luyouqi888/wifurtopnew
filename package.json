@@ -1,0 +1,10 @@
+{
+  "name": "wifur-top-landing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"require('node:fs').accessSync('dist/index.html'); console.log('Static page ready: dist/index.html')\"",
+    "dev": "npx wrangler@4 dev",
+    "deploy": "npx wrangler@4 deploy"
+  }
+}
